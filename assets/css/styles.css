@@ -246,11 +246,11 @@ a {
 }
 
 .service__heading,
-.section__desc {
+.service__desc {
     text-align: center;
 }
 
-.section__desc {
+.service__desc {
     width: 468px;
     margin-right: auto;
     margin-left: auto;
@@ -322,6 +322,62 @@ a {
 
 .service-icon__desc {
     margin-top: 8px;
+    color: #575f66;
+    font-family: Sora;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75;
+}
+
+/* Work */
+.work {
+    padding: 100px 135px;
+    background: #f6fbff;
+}
+
+.work__desc {
+    width: 468px;
+}
+
+.work__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    margin-top: 70px;
+}
+
+.work-item {
+    padding: 44px;
+    border: 16px solid #eaf6ff;
+    border-radius: 4px;
+    transition: 0.25s;
+}
+
+.work-item:hover {
+    transform: translateY(-16px);
+    border-color: #2e80ce;
+}
+
+.work-item__heading {
+    margin-top: 18px;
+    color: #10375c;
+    font-family: Sora;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 1.38;
+}
+
+.work-item__desc {
+    color: #575f66;
+    font-family: Sora;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75;
+}
+
+.work-item__more {
+    display: inline-block;
+    margin-top: 18px;
     color: #575f66;
     font-family: Sora;
     font-size: 1.6rem;
