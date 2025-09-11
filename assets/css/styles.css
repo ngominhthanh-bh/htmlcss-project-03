@@ -57,6 +57,7 @@ a {
 }
 
 .section__desc {
+    margin-top: 18px;
     color: #575f66;
     font-family: Sora;
     font-size: 1.8rem;
@@ -383,4 +384,44 @@ a {
     font-size: 1.6rem;
     font-weight: 300;
     line-height: 1.75;
+}
+
+/* Feature */
+.feature {
+    margin-top: 85px;
+    padding: 85px 0;
+}
+
+.feature__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.feature__media {
+    width: 48%;
+}
+
+.feature__images {
+    position: relative;
+    padding-bottom: 121px;
+}
+
+.feature__img {
+    width: 512px;
+    height: 370px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.feature__img:last-child {
+    position: absolute;
+    width: 332px;
+    height: 370px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.feature__cta {
+    margin-top: 38px;
 }
